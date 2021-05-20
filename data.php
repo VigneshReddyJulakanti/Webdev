@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+<body>
 
  <?php
 header('Access-Control-Allow-Methods: GET, POST, PATCH, PUT, DELETE, OPTIONS');
@@ -23,3 +26,5 @@ $conn->close();
 
 echo($outp);
 ?>
+</body>
+</html>
